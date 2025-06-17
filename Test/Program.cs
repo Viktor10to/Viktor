@@ -47,14 +47,14 @@ class Program
             {
                 if (arr[i] > arr[i + 1])
                 {
-                    // разменяне
+                   
                     int temp = arr[i];
                     arr[i] = arr[i + 1];
                     arr[i + 1] = temp;
                     swapped = true;
                 }
             }
-            n--; // всяка итерация поставя най-голямото число в края
+            n--; 
         } while (swapped);
     }
 }
